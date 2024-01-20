@@ -1,0 +1,2720 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.m-w-p-b{
+    height:auto;
+    width:100%;
+    background-color: #fff;
+}
+
+.magical-water{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+   
+}
+
+.book{
+    height: 700px;
+    width: 700px;
+    border-radius: 0.3rem;
+}
+
+.set{
+    display: flex;
+}
+
+
+.sale-box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sale{
+    text-align: center;
+    border-radius: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 4em;
+    color: #fff;
+    font-size: 0.8rem;
+    background-color: #b90000;
+}
+.sl{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0rem 0rem 0rem;
+    line-height: 1.5rem;
+}
+
+.sale-price{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.free-cod{
+    margin: 0.5rem 0rem 0rem 0rem;
+    font-size: 0.9rem;
+}
+
+.magical h1{
+   margin-top: 0rem; 
+   font-weight: normal;
+   font-size: 2.5rem;
+}
+
+.water{
+    height: 24rem;
+    width: 22rem;
+    margin-top: 0.7rem;
+}
+
+.order-btn{
+    margin: auto;
+    height:5.5rem;
+    width: 22.5rem;
+    background-color: #000;
+    color: #fff;
+    border: 4px solid #fff;
+    box-shadow: 0px 0px 8px 0px gray;
+    border-radius: 1.5rem;
+    margin: 1.5rem 0rem;
+    font-size: 1rem;
+    font-weight: bold;
+   cursor: pointer;
+   animation: skew-y-shakeing 2s infinite; 
+}
+
+
+    
+@keyframes skew-y-shakeing{
+    0% { transform: skewY(-0deg); }
+    5% { transform: skewY(5deg); }
+    10% { transform: skewY(-0deg); }
+    15% { transform: skewY(5deg); }
+    20% { transform: skewY(0deg); }
+    100% { transform: skewY(0deg); }
+   }
+
+  
+   
+.order-btn span{
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+
+    
+}
+
+.offer p{
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+
+.customers h5{
+    font-size: 1.2rem;
+}
+
+.review{
+    margin: 0.5rem 0rem 0rem 0rem;
+    height:3.5rem;
+    width: 22rem;
+}
+
+.review2{
+    margin: 0.5rem 0rem 0rem 0rem;
+    height:4rem;
+    width: 22rem;
+   
+}
+
+.vinayimg{
+    height: 3.4rem;
+    width: 21rem;
+    background: none;
+    margin: 0.5rem 0rem;
+}
+
+.product{
+    height:3.5rem;
+    width: 22rem;
+}
+
+.receive{
+    height:12rem;
+    width: 22rem; 
+    margin: 0.5rem 0rem;
+}
+
+.little{
+    height:5rem;
+    width: 22rem;   
+}
+
+.binding{
+    height: 20.5rem;
+    width: 22rem;   
+}
+
+.cycle{
+    height: 20.5rem;
+    width: 20rem;  
+}
+
+.magical-park{
+    margin-top: 0rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.recycle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.mobile{
+    height: 4.5rem;
+    width: 20rem;
+    margin: 1rem 0rem 0rem 0rem;  
+}
+.give{
+    height: 7rem;
+    width: 22rem;
+    margin: 0.5rem 0rem 0rem 0rem;
+}
+
+.today{
+    height:3.6rem;
+    width: 20rem;
+    margin: 0.5rem 0rem;
+} 
+
+.also{
+    height: 3.4rem;
+    width: 20rem;
+}
+
+.before-painting{
+    display: flex;
+    gap: 1rem;
+}
+
+.send{
+    height: 15rem;
+    width: 22rem;
+}
+
+.sending{
+    height: 25rem;
+    width: 22rem;
+    border-radius: 0.3rem;
+}
+
+.explore{
+    height: 3.8rem;
+    width: 24rem;
+    margin: 0.5rem 0rem 0rem 0rem;
+}
+.education{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.endless-fun h1{
+   color: #000;
+   font-size: 2.6rem;
+   font-weight:700;
+   margin: 5rem 0rem 3rem 0rem;
+}
+
+.endless-fun p{
+    font-size: 1.1rem;
+    color: #121212bf;
+    font-weight:600;
+    line-height: 1.9rem;
+}
+.another p{
+    margin:0rem 0rem;
+    font-size: 1.1rem;
+    color: #121212bf;
+    font-weight:600;
+    line-height: 1.9rem;
+}
+.better{
+    margin-top: 0.8rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.need{
+    height: 30rem;
+    width: 22rem;
+    border-radius: 0.3rem;
+}
+.get{
+    height: 18rem;
+    width: 22rem;
+    border-radius: 0.3rem;
+}
+
+.color{
+    height: 23rem;
+    width: 24rem;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+
+@media(min-width:250px) and (max-width:349px){
+
+    .m-w-p-b{
+        height:auto;
+        width:100%;
+        background-color:pink;
+    }
+    .magical-water{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem; 
+    }
+    
+    .book{
+        height: 700px;
+        width:100%;
+        border-radius: 0.3rem;
+    }
+    
+    .set{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .sale-box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .sale{
+        text-align: center;
+        border-radius: 3px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: 1.5rem;
+        width: 4em;
+        color: #fff;
+        font-size: 0.8rem;
+        background-color: #b90000;
+    }
+    .sl{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem 0rem 0rem 0rem;
+        line-height: 1.5rem;
+    }
+    
+    .sale-price{
+        font-size: 0.9rem;
+        font-weight: normal;
+    }
+    
+    .free-cod{
+        margin: 0.5rem 0rem 0rem 0rem;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .magical h1{
+       margin-top: 0rem;
+       text-align: center;
+       font-weight: normal;
+       font-size: 1.8rem;
+    }
+    
+    .water{
+        margin: auto !important;
+        height: 24rem;
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+
+    .order{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .order-btn{
+        height:4rem;
+        width: 15rem;
+        background-color: #000;
+        color: #fff;
+        border: 4px solid #fff;
+        box-shadow: 0px 0px 8px 0px gray;
+        border-radius: 1.5rem;
+        margin: 1.5rem 0rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+       cursor: pointer;
+       animation: skew-y-shakeing 2s infinite;
+       
+    }
+    
+
+    @keyframes skew-y-shakeing{
+        0% { transform: skewY(-0deg); }
+        5% { transform: skewY(5deg); }
+        10% { transform: skewY(-0deg); }
+        15% { transform: skewY(5deg); }
+        20% { transform: skewY(0deg); }
+        100% { transform: skewY(0deg); }
+       }
+       
+    .order-btn span{
+        font-size: 0.8rem;
+        line-height: 2rem;
+        font-weight: 500;  
+    }
+
+    .offer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .offer p{
+        margin: 0rem 0rem 1rem 0rem;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    
+    .customers{
+        margin: 0rem 0rem 1rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .customers h5{
+        font-size: 0.9rem;
+    }
+
+    .first{
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .review{
+        margin: 0.5rem 0rem 0rem 0rem;
+        height:2.9rem;
+        width: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .review2{
+        margin: 0.5rem 0rem 0rem 0rem;
+        height:3.5rem;
+        width: 15rem;
+       
+    }
+    
+    .vinayimg{
+        height: 2.9rem;
+        width: 14rem;
+        background: none;
+        margin: 0.5rem 0rem;
+    }
+    
+    .product{
+        height:2.9rem;
+        width: 15rem;
+    }
+    
+    .receive{
+        height:9rem;
+        width: 15.5rem; 
+        margin: 0.5rem 0rem;
+    }
+    
+    .little{
+        height:3.6rem;
+        width: 15rem;   
+    }
+
+    .job{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .binding{
+        margin: auto !important;
+        height: 15rem;
+        width:15rem !important;
+        
+    }
+    
+    .cycle{
+        margin: auto !important;
+        height: 15rem;
+        width: 14rem !important;  
+    }
+    
+    .magical-park{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .recycle{
+        display: flex;
+       flex-direction: column;
+        gap: 1rem;
+    }
+
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mobile{
+        height: 3.8rem;
+        width: 15rem;
+        margin: 1rem 0rem 0rem 0rem;  
+    }
+    .give{
+        height: 4.9rem;
+        width: 15rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+    
+    .today{
+        height:2.9rem;
+        width:15rem;
+        margin: 0.5rem 0rem;
+    } 
+    
+    .also{
+        height: 2.6rem;
+        width:15rem;
+    }
+    
+    .before-painting{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .after{
+        margin-top: 0.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .send{
+        height: 14rem;
+        width:16rem;
+    }
+
+    .sending{
+        height: 18rem;
+        width:15rem;
+        border-radius: 0.3rem;
+    }
+    
+    .fun{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .explore{
+        height: 2.8rem;
+        width:15rem;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .education{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .endless-fun h1{
+       color: #000;
+       font-size: 1.8rem;
+       font-weight:700;
+       text-align: center;
+       margin: 2rem 0rem 1rem 0rem;
+    }
+    
+    .endless-fun p{
+        text-align: center;
+        font-size: 0.8rem;
+        color: #121212bf;
+        font-weight:600;
+        line-height: 1.9rem;
+       
+    }
+    .another p{
+        text-align: center;
+        margin:0rem 0rem;
+        font-size: 0.8rem;
+        color: #121212bf;
+        font-weight:600;
+        line-height: 1.9rem;
+    
+    }
+    .better{
+        margin-top: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .drawing{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .need{
+        height: 19rem;
+        width: 15rem;
+        border-radius: 0.3rem;
+    }
+
+    .magic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .get{
+        height: 12rem;
+        width: 15rem;
+        border-radius: 0.3rem;
+    }
+
+    .resource{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .color{
+        margin-top: 1rem;
+        height: 15rem;
+        width: 15rem;
+    }
+    
+    .pages{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+}
+
+@media(min-width:350px) and (max-width:499px){
+    .magical-water{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem; 
+    }
+    
+    .book{
+        height: 700px;
+        width:100%;
+        border-radius: 0.3rem;
+    }
+    
+    .set{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .sale-box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .sale{
+        text-align: center;
+        border-radius: 3px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: 1.5rem;
+        width: 4em;
+        color: #fff;
+        font-size: 0.8rem;
+        background-color: #b90000;
+    }
+    .sl{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem 0rem 0rem 0rem;
+        line-height: 1.5rem;
+    }
+    
+    .sale-price{
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    
+    .free-cod{
+        margin: 0.5rem 0rem 0rem 0rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .magical h1{
+       margin-top: 0rem;
+       text-align: center;
+       font-weight: normal;
+       font-size: 2rem;
+    }
+    
+    .water{
+        margin: auto !important;
+        height: 24rem;
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+
+    .order{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .order-btn{
+        margin: auto;
+        height:5.5rem;
+        width: 21rem;
+        background-color: #000;
+        color: #fff;
+        border: 4px solid #fff;
+        box-shadow: 0px 0px 8px 0px gray;
+        border-radius: 1.5rem;
+        margin: 1.5rem 0rem;
+        font-size: 1rem;
+        font-weight: bold;
+       cursor: pointer;
+       animation: skew-y-shakeing 2s infinite;
+    }
+    
+
+    @keyframes skew-y-shakeing{
+        0% { transform: skewY(-0deg); }
+        5% { transform: skewY(5deg); }
+        10% { transform: skewY(-0deg); }
+        15% { transform: skewY(5deg); }
+        20% { transform: skewY(0deg); }
+        100% { transform: skewY(0deg); }
+       }
+       
+    .order-btn span{
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 500;
+    
+        
+    }
+
+    .offer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .offer p{
+        margin: 0rem 0rem 1rem 0rem;
+        font-size: 1.1rem;
+        font-weight: normal;
+    }
+    
+    .customers{
+        margin: 0rem 0rem 1rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .customers h5{
+        font-size: 1.2rem;
+    }
+
+    .first{
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .review{
+        margin: 0.5rem 0rem 0rem 0rem;
+        height:3.5rem;
+        width: 22rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .review2{
+        margin: 0.5rem 0rem 0rem 0rem;
+        height:4rem;
+        width: 22rem;
+       
+    }
+    
+    .vinayimg{
+        height: 3.4rem;
+        width: 21rem;
+        background: none;
+        margin: 0.5rem 0rem;
+    }
+    
+    .product{
+        height:3.5rem;
+        width: 22rem;
+    }
+    
+    .receive{
+        height:12rem;
+        width: 22rem; 
+        margin: 0.5rem 0rem;
+    }
+    
+    .little{
+        height:5rem;
+        width: 22rem;   
+    }
+
+    .job{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .binding{
+        height: 20.5rem;
+        width: auto;
+        
+    }
+    
+    .cycle{
+        height: 20.5rem;
+        width: auto;  
+    }
+    
+    .magical-park{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .recycle{
+        display: flex;
+       flex-direction: column;
+        gap: 1rem;
+    }
+
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mobile{
+        height: 4.5rem;
+        width: 20rem;
+        margin: 1rem 0rem 0rem 0rem;  
+    }
+    .give{
+        height: 7rem;
+        width: auto;
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+    
+    .today{
+        height:3.4rem;
+        width: auto;
+        margin: 0.5rem 0rem;
+    } 
+    
+    .also{
+        height: 3.2rem;
+        width: auto;
+    }
+    
+    .before-painting{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .after{
+        margin-top: 0.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .send{
+        height: 15rem;
+        width:auto;
+    }
+
+    .sending{
+        height: 25rem;
+        width: auto;
+        border-radius: 0.3rem;
+    }
+    
+    .fun{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .explore{
+        height: 3.4rem;
+        width: auto;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .education{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .endless-fun h1{
+       color: #000;
+       font-size: 2.2rem;
+       font-weight:700;
+       text-align: center;
+       margin: 2rem 0rem 1rem 0rem;
+    }
+    
+    .endless-fun p{
+        text-align: center;
+        font-size: 1rem;
+        color: #121212bf;
+        font-weight:600;
+        line-height: 1.9rem;
+       
+    }
+    .another p{
+        text-align: center;
+        margin:0rem 0rem;
+        font-size: 1rem;
+        color: #121212bf;
+        font-weight:600;
+        line-height: 1.9rem;
+    
+    }
+    .better{
+        margin-top: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .drawing{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .need{
+        height: 30rem;
+        width: auto;
+        border-radius: 0.3rem;
+    }
+
+    .magic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .get{
+        height: 18rem;
+        width: auto;
+        border-radius: 0.3rem;
+    }
+
+    .resource{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .color{
+        margin-top: 1rem;
+        height: 20rem;
+        width: auto;
+    }
+    
+    .pages{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+     
+}
+
+@media(min-width:500px) and (max-width:768px){
+    .magical-water{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem; 
+    }
+    
+    .book{
+        height: 700px;
+        width:100%;
+        border-radius: 0.3rem;
+    }
+    
+    .set{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .sale-box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .sale{
+        text-align: center;
+        border-radius: 3px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: 1.5rem;
+        width: 4em;
+        color: #fff;
+        font-size: 0.8rem;
+        background-color: #b90000;
+    }
+    .sl{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem 0rem 0rem 0rem;
+        line-height: 1.5rem;
+    }
+    
+    .sale-price{
+        font-size: 1.4rem;
+        font-weight: normal;
+        font-family: sans-serif;
+    }
+    
+    .free-cod{
+        margin: 0.7rem 0rem 0rem 0rem;
+        font-size: 1.2rem;
+        text-align: center;
+        
+    }
+    
+    .magical h1{
+       margin-top: 0rem;
+       text-align: center;
+       font-weight: normal;
+       font-size: 3rem;
+    }
+
+    
+    .water{
+        margin: auto !important;
+        height: 24rem;
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+
+    .order{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .order-btn{
+        margin: auto ;
+        height:5.5rem;
+        width: 25rem;
+        background-color: #000;
+        color: #fff;
+        border: 4px solid #fff;
+        box-shadow: 0px 0px 8px 0px gray;
+        border-radius: 1.5rem;
+        margin: 1.5rem 0rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+       cursor: pointer;
+       animation: skew-y-shakeing 2s infinite;
+    }
+    
+
+    @keyframes skew-y-shakeing{
+        0% { transform: skewY(-0deg); }
+        5% { transform: skewY(5deg); }
+        10% { transform: skewY(-0deg); }
+        15% { transform: skewY(5deg); }
+        20% { transform: skewY(0deg); }
+        100% { transform: skewY(0deg); }
+       }
+       
+    .order-btn span{
+        font-size: 1.1rem;
+        line-height: 2rem;
+        font-weight: 500;
+        font-family: sans-serif;   
+    }
+
+    .offer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .offer p{
+        margin: 0rem 0rem 1rem 0rem;
+        font-size: 1.4rem;
+        font-weight: normal;
+    }
+    
+    .customers{
+        margin: 0rem 0rem 1rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .customers h5{
+        font-size: 1.4rem;
+    }
+
+    .first{
+        margin: auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width:auto;
+    }
+    
+    .review{
+        margin: 0.5rem 0rem 0rem 0rem;
+        height:3.5rem;
+        width: 22rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .review2{
+        margin: 0.5rem 0rem 0rem 0rem;
+        height:4rem;
+        width: 22rem;
+       
+    }
+    
+    .vinayimg{
+        height: 3.4rem;
+        width: 21rem;
+        background: none;
+        margin: 0.5rem 0rem;
+    }
+    
+    .product{
+        height:3.5rem;
+        width: 22rem;
+    }
+    
+    .receive{
+        height:12rem;
+        width: 22rem; 
+        margin: 0.5rem 0rem;
+    }
+    
+    .little{
+        height:5rem;
+        width: 22rem;   
+    }
+
+    .job{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .binding{
+        height: 20.5rem;
+        width: auto !important;
+        
+    }
+    
+    .cycle{
+        margin-top: 1rem;
+        height: 20.5rem;
+        width:auto;  
+    }
+    
+    .magical-park{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .recycle{
+        display: flex;
+       flex-direction: column;
+        gap: 1rem;
+    }
+
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:100% !important;
+    }
+    
+    .mobile{
+        height: 4.5rem;
+        width: 20rem;
+        margin: 1rem 0rem 0rem 0rem;  
+    }
+    .give{
+        height: 7rem;
+        width: auto;
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+    
+    .today{
+        height:3.4rem;
+        width: auto;
+        margin: 0.5rem 0rem;
+    } 
+    
+    .also{
+        height: 3.2rem;
+        width: auto;
+    }
+    
+    .before-painting{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .after{
+        margin-top: 0.5rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .send{
+        height: 15rem;
+        width:100% !important;
+    }
+
+    .sending{
+        height:auto;
+        width: 100% !important;
+        border-radius: 0.3rem;
+    }
+    
+    .fun{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .explore{
+        height: 3.4rem;
+        width: auto;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .education{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .endless-fun h1{
+       color: #000;
+       font-size: 2.5rem;
+       font-weight:700;
+       text-align: center;
+       margin: 2rem 0rem 1rem 0rem;
+    }
+    
+    .endless-fun p{
+        text-align: center;
+        font-size: 1.2rem;
+        color: #121212bf;
+        font-weight:600;
+        line-height: 1.9rem;
+       
+    }
+    .another p{
+        text-align: center;
+        margin:0rem 0rem;
+        font-size: 1.2rem;
+        color: #121212bf;
+        font-weight:600;
+        line-height: 1.9rem;
+    
+    }
+    .better{
+        margin-top: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .drawing{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .need{
+        height: 30rem;
+        width:100% !important;
+        border-radius: 0.3rem;
+    }
+
+    .magic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .get{
+        height: 18rem;
+        width: 100%;
+        border-radius: 0.3rem;
+    }
+
+    .resource{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .color{
+        margin-top: 1rem;
+        height: 20rem;
+        width: auto;
+    }
+    
+    .pages{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+ 
+}
+
+@media(min-width:769px) and (max-width:1024px){
+
+    .m-w-p-b{
+        height:auto;
+        width:100%;
+        background-color: #fff;
+    }
+    
+    .magical-water{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+       
+    }
+    
+    .book{
+        height: 700px;
+        width: 600px;
+        border-radius: 0.3rem;
+    }
+    
+    .set{
+        display: flex;
+    }
+    
+    
+    .sale-box{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .sale{
+        text-align: center;
+        border-radius: 3px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: 1.5rem;
+        width: 4em;
+        color: #fff;
+        font-size: 0.8rem;
+        background-color: #b90000;
+    }
+    .sl{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem 0rem 0rem 0rem;
+        line-height: 1.5rem;
+    }
+    
+    .sale-price{
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    
+    .free-cod{
+        margin: 0.5rem 0rem 0rem 0rem;
+        font-size: 0.9rem;
+    }
+    
+    .magical h1{
+       margin-top: 0rem; 
+       font-weight: normal;
+       font-size: 2.3rem;
+    }
+    
+    .water{
+        height: 19.5rem;
+        width: auto;
+        margin-top: 0.7rem;
+    }
+    
+    .order-btn{
+        margin: auto;
+        height:5.5rem;
+        width: 18.5rem;
+        background-color: #000;
+        color: #fff;
+        border: 4px solid #fff;
+        box-shadow: 0px 0px 8px 0px gray;
+        border-radius: 1.5rem;
+        margin: 1.5rem 0rem;
+        font-size: 1rem;
+        font-weight: bold;
+       cursor: pointer;
+       animation: skew-y-shakeing 2s infinite; 
+    }
+    
+    
+        
+    @keyframes skew-y-shakeing{
+        0% { transform: skewY(-0deg); }
+        5% { transform: skewY(5deg); }
+        10% { transform: skewY(-0deg); }
+        15% { transform: skewY(5deg); }
+        20% { transform: skewY(0deg); }
+        100% { transform: skewY(0deg); }
+       }
+    
+      
+       
+    .order-btn span{
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 500;
+    
+        
+    }
+    
+    .offer p{
+        margin: 0rem 0rem 1rem 0rem;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    
+    
+    .customers h5{
+        font-size: 1rem;
+    }
+    
+    .review{
+        margin: 0.5rem 0rem 0rem 0rem;
+        height:3.5rem;
+        width: 20rem;
+    }
+    
+    .review2{
+        margin: 0.5rem 0rem 0rem 0rem;
+        height:4rem;
+        width: 20rem;
+       
+    }
+    
+    .vinayimg{
+        height: 3.4rem;
+        width: 20rem;
+        background: none;
+        margin: 0.5rem 0rem;
+    }
+    
+    .product{
+        height:3.5rem;
+        width: 20rem;
+    }
+    
+    .receive{
+        height:10rem;
+        width: 20rem; 
+        margin: 0.5rem 0rem;
+    }
+    
+    .little{
+        height:5rem;
+        width: 20rem;   
+    }
+    
+    .binding{
+        height: 20.5rem;
+        width: 23rem;   
+    }
+    
+    .cycle{
+        height: 17rem;
+        width: 15.5rem;  
+    }
+    
+    .magical-park{
+        margin-top: 0.5rem;
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .recycle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+       
+    }
+    
+    .mobile{
+        height: 4.5rem;
+        width: 20rem;
+        margin: 1rem 0rem 0rem 0rem;  
+    }
+    .give{
+        height: 7rem;
+        width: 20rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+    
+    .today{
+        height:3.6rem;
+        width: 20rem;
+        margin: 0.5rem 0rem;
+    } 
+    
+    .also{
+        height: 3.4rem;
+        width: 20rem;
+    }
+    
+    .before-painting{
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .send{
+        height: 15rem;
+        width: 15rem;
+    }
+    
+    .sending{
+        height: 25rem;
+        width: 22rem;
+        border-radius: 0.3rem;
+    }
+    
+    .explore{
+        height: 3.8rem;
+        width: 17rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+    .education{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    
+    .endless-fun h1{
+       color: #000;
+       font-size: 2rem;
+       font-weight:700;
+       margin: 5rem 0rem 3rem 0rem;
+    }
+    
+    .endless-fun p{
+        font-size: 1rem;
+        color: #121212bf;
+        font-weight:600;
+        line-height: 1.9rem;
+    }
+    .another p{
+        margin:0rem 0rem;
+        font-size: 1rem;
+        color: #121212bf;
+        font-weight:600;
+        line-height: 1.9rem;
+    }
+    .better{
+        margin-top: 0.8rem;
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .need{
+        height: 25rem;
+        width: 14rem;
+        border-radius: 0.3rem;
+    }
+    .get{
+        height: 18rem;
+        width: 22rem;
+        border-radius: 0.3rem;
+    }
+    
+    .color{
+        height: 18rem;
+        width: 15rem;
+    }
+    
+    .pages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    
+}
+
+
+.Home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 4rem;
+}
+
+.whitebackg{
+    /* background-color: aqua; */
+    height: 80rem;
+    width: 60rem;
+}
+.colorbackg{
+    
+    height: 100%;
+    width: 35rem;
+
+}
+.colorbackg h2{
+    font-size: 19px;
+    font-family: sans-serif;
+    padding: 0px 50px;
+    margin-bottom: 1rem !important;
+}
+.colorbackg p{
+    font-size: 16px;
+    width: 31dvw;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-family: sans-serif;
+    font-weight: 550;
+    padding: 0px 50px;
+}
+
+
+.colorbackg img{
+    margin: auto;
+    display: flex;
+    height: 311px;
+    width: 350px;
+    border-radius: 5px;
+}
+.booktext h1{
+    margin: auto;
+    display: flex;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    padding: 30px 40px;
+}
+
+.big-booktext h1{
+    margin: auto;
+    display: flex;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    padding: 30px 40px;
+}
+.bookimg{
+    margin-top: 13rem !important;
+}
+
+.bookimgs img{
+    margin-top: 1rem;
+}
+
+.stext h2{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-top: 2rem;
+    letter-spacing: .5px;
+    color: rgb(33, 33, 33);
+}
+.stext p{
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+}
+
+.package-text span{
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+    /* padding: 2rem; */
+
+}
+
+.icontext p{
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+    margin: 1px;
+}
+.icontext{
+    padding: 1rem 0rem;
+}
+
+.package-text1 span {
+    padding-bottom: 1rem;
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+}
+
+.package-text1 p{
+    margin-top: 1rem;
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110); 
+}
+
+.clicktext span{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(115, 110, 110);
+    margin-bottom: 2rem; 
+}
+.ourtext{
+    margin-top: 2rem !important;
+}
+.ourtext span{
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(37, 36, 36);   
+}
+.ourtext p{
+    font-size: 16px;
+    width: 22dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110);
+}
+.About h1{
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(37, 36, 36); 
+}
+
+.About p{
+   
+    margin-top: 1rem;
+    font-size: 16px;
+    width: 23dvw;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: .5px;
+    color: rgb(115, 110, 110); 
+}
+.productimg img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    height: 265px;
+    width: 275px;
+    border-radius: 18px;
+    
+}
+.products h2{
+    display: flex;
+    justify-content: start;
+    padding: 2rem;
+    margin-left: 3.5rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.productimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    gap: 1rem !important;
+}
+
+.productimg span{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin-top: 1rem !important;
+    width: 20dvw;
+}
+.productimg p{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    
+}
+.productimg strike{
+    margin-right: 1rem;
+}
+.line hr{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+}
+.logoimg img{
+    height: 135px;
+    width: 200px;
+    margin-left: 0rem !important;
+    
+}
+
+.productimg span:hover{
+    text-decoration: underline;
+}
+.productimg {
+    position: relative;
+    max-width: 100%;
+}
+.imgClass {
+    position: relative;
+    overflow: hidden;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff; /* White text color, you can adjust this */
+    height: 2rem;
+    width: 3rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #a0160c !important;
+    color: #fff;
+    padding: 3px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    font-size: 15px;
+    margin: 4px 9px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+@media only screen and (min-Width:250px) and (max-Width:349px) {  
+    .whitebackg{
+        height: 0rem;
+        width: 0rem;
+        display: none;
+    }
+    .colorbackg{
+        height: auto;
+        width: 18.2rem;
+    
+    }
+    .colorbackg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .colorbackg h2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: auto
+    }
+    .colorbackg p{
+        margin: auto !important;
+        font-size: 14px;
+        width: 100dvw;
+        padding: 0rem 1rem;
+        line-height: 25px;
+    
+       
+    }
+    .colorbackg img{
+        height: 175px;
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 1.3rem;
+        padding: 20px 10px;
+    }
+    
+    .big-booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 1.6rem;
+        padding: 20px 10px;
+    }
+    .bookimg{
+        margin-top: 2rem !important;
+    }
+    
+    .bookimgs img{
+        margin-top: 1rem;
+    }
+    
+    .stext h2{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+    .stext p{
+        font-size: 14px;
+        width: 100dvw;
+    }
+    .package-text1{
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        flex-direction: column;
+    }
+    .package-text span{
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 93dvw;
+        padding: 0rem;
+        
+    }
+    .icontext p{
+        font-size: 16px;
+        width: 71dvw;
+        margin: 0px;
+    }
+    .icontext{
+        padding: 1rem 0rem;
+    }
+    
+    .package-text1 span {
+        font-size: 14px;
+        display: flex;
+        margin: auto;
+        width: 93dvw;
+        padding: 0rem;
+        margin-top: 1rem !important;
+    }
+    
+    .package-text1 p{
+        margin-top: 1rem;
+        font-size: 14px;
+        width: 81dvw;
+    }
+    
+    .clicktext span{
+        /* padding: 7px 20px; */
+        font-size: 13px;
+        margin-bottom: 2rem; 
+        display: flex;
+        margin: auto;
+        text-align: center;
+    }
+    .ourtext{
+        margin-top: 2rem !important;
+    }
+    .ourtext span{
+        margin: auto !important;
+        padding: 0px;
+        display: flex;
+        justify-content: center !important;
+        text-align: center !important;
+        margin-bottom: 1rem !important;
+        font-size: 17px;  
+    }
+    .ourtext p{
+        font-size: 14px;
+        width: 100dvw;
+    }
+    .About h1{
+        padding: 0px 30px;
+        font-size: 23px;
+        text-align: center;
+    }
+    
+    .About p{
+        padding: 0px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        font-size: 14px;
+        width: 96dvw;
+    }
+    .productimg img{
+        height: 178px;
+        width: auto;
+    }
+    .products{
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .products h2{
+        text-align: center !important;
+        padding: 0rem 0rem;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .productimages{
+        padding: 0rem 0rem;
+        flex-direction: column;
+        gap: 0rem !important;
+        
+    }
+    .productimg {
+        margin: auto !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .productimg span{
+        font-size: 12px;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 17px;
+        letter-spacing: .5px;
+        width: 74dvw;   
+    }
+    .productimg p{
+        text-align: center;
+        font-size: 12px;
+        font-family: sans-serif;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+    .productimg strike{
+        margin-right: 1rem;
+    }
+
+    .line hr{
+        display: flex;
+        justify-content: center;
+        margin: auto; 
+        margin-bottom: 1rem; 
+        width: 8rem !important; 
+    }
+    .logoimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoimg img{
+        
+        height: 111px;
+        width: 175px;
+        margin-left: 0rem !important;
+        
+    }
+
+}
+
+@media only screen and (min-Width:349px) and (max-Width:499px) { 
+
+    .whitebackg{
+        height: 0rem;
+        width: 0rem;
+        display: none;
+    }
+    .colorbackg{
+        height: auto;
+        width:100%;
+    }
+
+    .colorbackg h2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: auto
+    }
+    .colorbackg p{
+        font-size: 16px;
+        width: 69dvw;
+        padding: 0px;
+        margin: auto;
+    }
+    .colorbackg img{
+        height: 204px;
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 1.3rem;
+        padding: 30px 40px;
+    }
+    
+    .big-booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 2rem;
+    }
+    .bookimg{
+        margin-top: 2rem !important;
+    }
+    
+    .bookimgs img{
+        margin-top: 1rem;
+    }
+    
+    .stext h2{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+    .stext p{
+        font-size: 16px;
+         width: 66dvw;
+    }
+    
+    .package-text span{
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 70dvw !important;
+        padding: 0rem;
+        
+    }
+    .icontext p{
+        font-size: 16px;
+        width: 71dvw;
+        margin: 1px;
+    }
+    .icontext{
+        padding: 1rem 0rem;
+    }
+    
+    .package-text1 span {
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 70dvw;
+        padding: 0rem;
+    }
+    
+    .package-text1 p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 52dvw;
+    }
+    
+    .clicktext span{
+        /* padding: 7px 20px; */
+        font-size: 13px;
+        margin-bottom: 2rem; 
+        display: flex;
+        margin: auto;
+        text-align: center;
+    }
+    .ourtext{
+        margin-top: 2rem !important;
+    }
+    .ourtext span{
+        /* padding: 10px 30px; */
+        padding: 0px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 17px; 
+        width: 70dvw; 
+    }
+    .ourtext p{
+        font-size: 16px;
+        width: 70dvw;
+    }
+    .About h1{
+        padding: 10px 30px;
+        font-size: 28px;
+    }
+    
+    .About p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 71dvw;
+    }
+    .productimg img{
+        height: 233px;
+        width: auto;
+    }
+
+    .products h2{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0rem !important;
+        text-align: center !important;
+        padding: 0rem 0rem;
+        font-size: 1.5rem;
+    }
+    .productimages{
+        padding: 0rem 5rem;
+        flex-direction: column;
+    }
+    
+    .productimg span{
+        font-size: 12px;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 17px;
+        letter-spacing: .5px;
+        width: 48dvw;
+    }
+    .productimg p{
+        text-align: center;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    .productimg strike{
+        margin-right: 1rem;
+    }
+
+    .line hr{
+        margin: auto; 
+        display: flex;
+        justify-content: center;
+        width: 25rem !important;
+          
+    }
+    .logoimg{
+        margin: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    
+    .logoimg img{
+        height: 111px;
+        width: 175px;
+        margin-left: 0rem !important;
+        
+    }
+}
+
+@media only screen and (min-Width:499px) and (max-Width:768px) { 
+
+    .whitebackg{
+        height: 0rem;
+        width: 0rem;
+        display: none;
+    }
+    .colorbackg{
+        height: auto;
+        width:100%;
+    }
+
+    .colorbackg h2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: auto
+    }
+    .colorbackg p{
+        font-size: 16px;
+        width: 71dvw;
+        padding: 0px;
+        margin: auto;
+    }
+    .colorbackg img{
+        height: 290px;
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .booktext h1{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 33px;
+        padding: 0px;
+    }
+    
+    .big-booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 2.4rem;
+        padding: 0px 0px;
+    }
+    .bookimg{
+        margin-top: 2rem !important;
+    }
+    
+    .bookimgs img{
+        margin-top: 1rem;
+    }
+    
+    .stext h2{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+    .stext p{
+        font-size: 16px;
+         width: 41dvw;
+         line-height: 23px;
+    }
+    
+    .package-text span{
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 43dvw;
+        padding: 0rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        
+    }
+    .icontext p{
+        padding: 0px;
+        font-size: 16px;
+        width: 43dvw !important;
+        margin: 0px;
+    }
+    .icontext{
+        padding: 1rem 0rem;
+    }
+    
+    .package-text1 span {
+        font-size: 16px;
+        display: flex;
+        margin: auto;
+        width: 79dvw;
+        padding: 0rem;
+    }
+    
+    .package-text1 p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 43dvw !important;
+    }
+    
+    .clicktext span{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+        font-size: 16px;
+        margin-bottom: 2rem; 
+        
+        
+    }
+    .ourtext{
+        margin-top: 2rem !important;
+    }
+    .ourtext span{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 17px;  
+    }
+    .ourtext p{
+        font-size: 16px;
+        width: 43dvw;
+    }
+    .About h1{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        font-size: 28px;
+    }
+    
+    .About p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 55dvw;
+    }
+    .productimg img{
+        height: 226px;
+        width: auto;
+    }
+    .products h2{
+        padding: 0rem ;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem !important;
+        align-items: center;
+        margin: auto;
+        font-size: 1.5rem;
+    }
+    .productimages{
+        padding: 0rem 5rem;
+        flex-direction: column;
+    }
+    
+    .productimg span{
+        font-size: 14px;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 17px;
+        letter-spacing: .5px;
+        width: 33dvw;
+    }
+    .productimg p{
+        text-align: center;
+        font-size: 14px;
+        font-family: sans-serif;
+        margin-bottom: 1rem;
+    }
+    .productimg strike{
+        margin-right: 1rem;
+    }
+
+    .line hr{
+        margin: auto;  
+        display: flex;
+        justify-content: center;
+        width: 30rem !important;
+    }
+    .logoimg {
+        padding: 1rem 0rem;  
+    }
+
+    .logoimg img{
+        margin: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 111px;
+        width: 175px;
+         
+    }
+}
+
+
+@media only screen and (min-Width:768px) and (max-Width:1024px) { 
+
+    .whitebackg{
+        height: 80rem;
+        width: 100%;
+        
+    }
+    .colorbackg{
+        height: auto;
+        width:100%;
+    }
+    
+    .colorbackg{
+        height: 100%;
+        width: 35rem;
+    
+    }
+    .colorbackg h2{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 1rem !important;
+        font-size: 28px;
+    }
+    .colorbackg p{
+        font-size: 18px;
+        width: 33dvw;
+        padding: 0px;
+        margin: auto;
+    }
+    .colorbackg img{
+        height: 219px;
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .booktext h1{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        padding: 0px;
+    }
+    
+    .big-booktext h1{
+        margin: auto;
+        display: flex;
+        font-size: 2.7rem;
+    }
+    .bookimg{
+        margin-top: 2rem !important;
+    }
+    
+    .bookimgs img{
+        margin-top: 1rem;
+    }
+    
+    .stext h2{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .stext p{
+        font-size: 18px;
+        width: 20dvw;
+    }
+    
+    .package-text span{
+        font-size: 18px;
+        display: flex;
+        margin: auto;
+        width: 33dvw;
+        padding: 0rem;
+        
+    }
+    .icontext p{
+        font-size: 18px;
+        width: 31dvw !important;
+        margin: 0px;
+    }
+    .icontext{
+        padding: 1rem 0rem;
+    }
+    
+    .package-text1 span {
+        font-size: 18px;
+        display: flex;
+        margin: auto;
+        width: 33dvw;
+        padding: 0rem;
+    }
+    
+    .package-text1 p{
+        margin-top: 1rem;
+        font-size: 16px;
+        width: 29dvw;
+       
+    }
+    .package-text1{
+        margin-bottom: 2rem;
+    }
+    
+    .clicktext span{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px ;
+        font-size: 17px;
+       
+    }
+    .ourtext{
+        margin-top: 2rem !important;
+    }
+    .ourtext span{
+        padding: 0px;
+        display: flex;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 18px; 
+        width: 32dvw !important; 
+    }
+    .ourtext p{
+        font-size: 18px;
+        width: 32dvw;
+    }
+    .About h1{
+        padding: 10px 30px;
+        font-size: 28px;
+    }
+    
+    .About p{
+        margin-top: 1rem;
+        font-size: 18px;
+        width: 30dvw;
+    }
+    .productimg img{
+        height: 173px;
+        width: auto;
+    }
+    .products h2{
+        padding: 0rem ;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem !important;
+        align-items: center;
+        margin: auto;
+        font-size: 1.5rem;
+    }
+    .productimages{
+        gap: 1rem;
+        padding: 0rem 5rem;
+        /* flex-direction: column; */
+    }
+    
+    .productimg span{
+        font-size: 12px;
+        margin-top: 1rem !important;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 17px;
+        letter-spacing: .5px;
+    }
+    .productimg p{
+        text-align: center;
+        font-size: 12px;
+        font-family: sans-serif;
+        margin-bottom: 1rem;
+    }
+    .productimg strike{
+        margin-right: 1rem;
+    }
+
+    .line hr{
+        display: flex;
+        justify-content: center;
+        margin: auto;   
+    }
+    .logoimg img{
+        height: 111px;
+        width: 175px;
+        margin-left: 2rem !important;
+        
+    }
+}
+
